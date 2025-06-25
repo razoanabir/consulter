@@ -430,6 +430,14 @@
     <script src="{{asset('dist/js/jquery.waypoints.min.js')}}"></script>
     <script src="{{asset('dist/js/wow.min.js')}}"></script>
     <script src="{{asset('dist/js/active.js')}}"></script>
+    <!-- Sub-resource Integrity -->
+    <script src="/static/ui.bundle-7f3c1.js"
+    integrity="sha384-Xx..." crossorigin="anonymous"></script>
+
+    <!-- Content-Security-Policy -->
+    <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'sha256-...'; object-src 'none';">
+
     @include('consulter.partials.script')
 </body>
 
